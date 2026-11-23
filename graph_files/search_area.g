@@ -47,7 +47,7 @@ wall_four(floor)  {
 # 0.9 x 0.9 m table with 3 x 3 cells of 0.3 m: a Panda reaches ~0.85 m, so every cell can be reached from
 # one side of the table (with 2 x 2 m tables the middle and back cells could not). A 0.12 x 0.24 m character fits in a cell.
 table_left(floor) {
-    Q: "t(2.2 1.6 .2)",
+    Q: "t(2.2 2.4 .2)",
     shape: box,
     size: [.9 .9 .2],
     color: [.8 .8 .8],
@@ -67,7 +67,7 @@ area_9_L(table_left) { shape: box, color: [.78 0 0], size: [.296 .296 .002], Q: 
 # 0.9 x 0.9 m table with 3 x 3 cells of 0.3 m: a Panda reaches ~0.85 m, so every cell can be reached from
 # one side of the table (with 2 x 2 m tables the middle and back cells could not). A 0.12 x 0.24 m character fits in a cell.
 table_right(floor) {
-    Q: "t(2.2 -1.6 .2)",
+    Q: "t(2.2 -2.4 .2)",
     shape: box,
     size: [.9 .9 .2],
     color: [.8 .8 .8],

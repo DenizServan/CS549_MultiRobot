@@ -1,6 +1,7 @@
-# python packages for spell_search (RAI runs on Linux only, use WSL2 on Windows)
+# python packages (RAI runs on Linux only, use WSL2 on Windows)
 robotic==0.4.1
 numpy
 scipy
 pillow
-torch                    # CNN reader (cnn.py); CPU build is enough: pip install torch --index-url https://download.pytorch.org/whl/cpu
+matplotlib
+torch                    # CNN reader; CPU build is enough: pip install torch --index-url https://download.pytorch.org/whl/cpu

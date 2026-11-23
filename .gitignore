@@ -1,6 +1,4 @@
 __pycache__/
 *.pyc
 z.log.global
-bench_runs/
-bench_results.csv
-my_proposals/perception/cnn/data/*.npz
+perception/cnn/data/
